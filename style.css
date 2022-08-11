@@ -207,10 +207,10 @@ h1 {
         flex-wrap: wrap;
         justify-content: space-between;
         /* flex-direction: row; */
-        margin-left: 5px;
+        margin-left: 12px;
     }
     i.material-icons {
-        font-size: 12px;
+        font-size: 11px;
     }
   .sidebar {
     display: none;
