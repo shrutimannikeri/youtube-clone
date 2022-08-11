@@ -201,11 +201,16 @@ h1 {
     .header__search {
         width: 200px;
     }
-    .header__icons i {
-        font-size: 13px;
+    .header__icons {
+        font-size: 11px;
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
+        justify-content: space-between;
+        /* flex-direction: row; */
+        margin-left: 5px;
+    }
+    i.material-icons {
+        font-size: 12px;
     }
   .sidebar {
     display: none;
